@@ -100,13 +100,6 @@ An optional Catalan translation goes through the same review, and is rejected au
 
 The tool runs on real data of real people, and it's built around the centre's internal templates and processes. That doesn't belong in public, and a public demo would mean redrawing official forms under a fake identity, which I'd rather not do. Happy to walk through it live in an interview.
 
-## What I'd still do differently
-
-- **The PDF layout lives twice**, in CSS for the screen and in coordinates for pdf-lib. I narrowed the duplication to pure geometry (content and colours have one source), but a single layout engine would remove it.
-- **The course model is split.** The generators keep the course in the browser and the server keeps another course record in Postgres. They don't contradict each other today, but they should be one thing.
-- **Layout has no automated check.** Tests verify every cell and every string, and that the files reopen; whether a `.docx` looks right is still checked by opening it in Word.
-- **The Spanish interface is a runtime dictionary** over the Catalan DOM. It kept the pages single-sourced, but a new string doesn't warn that its translation is missing.
-
 ## AI assistance
 
 Parts of this project and this write-up were built with AI assistance, disclosed here as in all my repos.
