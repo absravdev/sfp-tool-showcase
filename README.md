@@ -14,12 +14,18 @@
 
 </div>
 
-<!--
-  Screenshots: only with invented data, and without the centre's logos or name.
-  <p align="center">
-    <img src="docs/screenshot_annex.png" width="70%" alt="Application form filler" />
-  </p>
--->
+<p align="center">
+  <img src="docs/screenshot_annex.png" width="85%" alt="Application form: employment record, payslip crop and traffic-light fields" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshot_calendar.png" width="85%" alt="Calendar generator: the document is the screen" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshot_menu.png" width="45%" alt="Function menu" />
+  <img src="docs/screenshot_usage.png" width="45%" alt="Usage dashboard" />
+</p>
 
 ## The problem
 
